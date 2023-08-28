@@ -1,0 +1,86 @@
+<style is:global>
+    body {
+        background-image: url("/assets/htj-header.png");
+        background-size: 100% auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 1rem;
+        color: #666;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+
+    .divider {
+        width: 100%;
+        width: 1px;
+        margin: 0 1rem;
+        color: #666;
+    }
+
+    /* make hero behind elements with image  */
+    .hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .hero-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .hero-bottom img {
+        transform: rotate(180deg);
+    }
+
+    code {
+        line-height: 1.5 !important;
+        padding: 1rem !important;
+    }
+
+    /* scale image background */
+    @media (min-width: 768px) {
+        body {
+            background-size: 100% auto;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .social-media a {
+        margin: 0 0.5rem;
+    }
+
+    .social-media img {
+        width: 2rem;
+    }
+
+    /* social media hover purple blue gradinet with scale  */
+    .social-media a:hover {
+        transform: scale(1.1);
+    }
+
+    .social-media a:hover img {
+        filter: drop-shadow(0 0 0.5rem #a78bfa);
+    }
+</style>

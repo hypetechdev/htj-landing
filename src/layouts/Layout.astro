@@ -1,0 +1,28 @@
+---
+import "@picocss/pico"
+import GoogleScripts from "../components/GoogleScripts.astro"
+import MetaTags from "../components/MetaTags.astro"
+import GlobalStyles from "../components/GlobalStyles.astro"
+---
+
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <GlobalStyles />
+        <MetaTags />
+        <GoogleScripts />
+    </head>
+    <body>
+        <div class="hero">
+            <img src="/assets/htj-hero-stars.png" alt="" />
+        </div>
+        <main class="container">
+            <slot />
+        </main>
+        <div class="hero-bottom">
+            <img src="/assets/htj-hero-stars.png" alt="Image stars" />
+        </div>
+    </body>
+</html>
