@@ -1,18 +1,18 @@
 {
-  "name": "htj-landing",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@hypetech/prettier-config": "^1.0.1",
-    "@picocss/pico": "^1.5.10",
-    "astro": "^2.10.14"
-  },
-  "prettier": "@hypetech/prettier-config"
+    "name": "htj-landing",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@hypetech/prettier-config": "^1.0.1",
+        "@picocss/pico": "^1.5.10",
+        "astro": "^2.10.14"
+    },
+    "prettier": "@hypetech/prettier-config"
 }
