@@ -15,14 +15,14 @@ import GlobalStyles from "../components/GlobalStyles.astro"
         <GoogleScripts />
     </head>
     <body>
-        <div class="hero">
-            <img src="/assets/htj-hero-stars.png" alt="" />
-        </div>
         <main class="container">
+            <div class="hero">
+                <img src="/assets/htj-hero-stars.png" alt="" />
+            </div>
             <slot />
+            <div class="hero-bottom">
+                <img src="/assets/htj-hero-stars.png" alt="Image stars" />
+            </div>
         </main>
-        <div class="hero-bottom">
-            <img src="/assets/htj-hero-stars.png" alt="Image stars" />
-        </div>
     </body>
 </html>
